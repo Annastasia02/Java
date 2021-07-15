@@ -1,14 +1,12 @@
 package lesson_1;
 import java.util.Scanner;
 public class HomeWorkApp {
-
-    public static void main(String[] args){
+public static void main(String[] args){
         printThreeWords();
         checkSumSign();
         printColor();
         compareNumbers();
     }
-
     public static void printThreeWords(){
         System.out.println("Orange");
         System.out.println("Banana");
@@ -45,6 +43,5 @@ public class HomeWorkApp {
             System.out.println("a < b");
         }
     }
-
 }
 
